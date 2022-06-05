@@ -18,7 +18,7 @@ class mail {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_m9f3fut', 'template_nt7isjv', this)
+                emailjs.sendForm('service_ccgi466', 'template_nt7isjv', this)
                     .then(function() {
                         alert("Message envoyé");
                     }, function(error) {
