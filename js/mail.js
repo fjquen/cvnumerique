@@ -9,7 +9,7 @@ class mail {
     initSendMail(){
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('62ny_RkoQx3EZhh9jMOS8');
+            emailjs.init('8CBzMZT7X-jTENC8o');
         })();
     }
     sendMail(){
