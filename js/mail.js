@@ -9,7 +9,7 @@ class mail {
     initSendMail(){
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init('user_cPiuF8hndGkJlEKHKdpa5');
+            emailjs.init('62ny_RkoQx3EZhh9jMOS8');
         })();
     }
     sendMail(){
@@ -18,7 +18,7 @@ class mail {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_ccgi466', 'template_nt7isjv', this)
+                emailjs.sendForm('service_s1jxe05', 'template_mw7ikfe', this)
                     .then(function() {
                         alert("Message envoyé");
                     }, function(error) {
